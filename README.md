@@ -1,8 +1,25 @@
-# React + Vite
+# Wordle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the classic wordle game. It fetch datas from [datamuse api](https://www.datamuse.com/api/).
+### 
 
-Currently, two official plugins are available:
+#### Installation:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```http
+  git clone https://github.com/HarunBulbull/Wordle.git
+```
+
+###
+
+#### Run:
+
+```http
+  cd Wordle
+  npm run dev
+```
+
+###
+
+Here is a tip: The selected word will write on html! You can see it from the console.
+
+Have Fun!
