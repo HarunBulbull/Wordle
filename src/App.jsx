@@ -1,3 +1,4 @@
+
 import React, {useState, useEffect} from "react";
 
 function App() {
@@ -9,9 +10,7 @@ function App() {
       setWord(word + e.target.value);
       if(word.length+1 < 5){
         document.getElementById(word.length+2).focus();
-      }else{
-        game();
-      }
+      }else game();
     }
   }
 
